@@ -1,0 +1,22 @@
+{
+  "name": "dafnehita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elron Bucai",
+  "license": "ISC",
+  "dependencies": {
+    "coffeekraken-gridle": "^3.0.0-rc.4",
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

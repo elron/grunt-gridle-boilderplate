@@ -1,0 +1,29 @@
+
+body.loading {
+  .loadingScreen {
+    display:block;
+  }
+}
+.loadingScreen {
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  color:white;
+  >.inner {
+    height:100%;
+    width:100%;
+    text-align:center;
+    clear:both;
+    >.moreInner {
+      p{
+        padding:3em;
+        font-size:3em;
+        font-weight:bold;
+      }
+    }
+  }
+}

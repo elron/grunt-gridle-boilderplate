@@ -1,0 +1,25 @@
+@include g-setup( (
+	context : 12,
+	gutter-width : 20px,
+	direction : rtl,
+	// etc...
+) );
+
+
+
+
+@include g-register-state ( mobile , (
+	max-width : 480px
+) );
+@include g-register-state ( tablet , (
+	min-width : 481px,
+	max-width : 1024px
+) ) ;
+@include g-register-state ( belowdesktop , (
+	max-width : 1024px
+) ) ;
+@include g-register-state ( desktop , (
+	min-width : 1025px
+) ) ;
+
+@include g-classes();
